@@ -1,0 +1,5 @@
+# Sphinx 1.8 development version
+https://github.com/sphinx-doc/sphinx/archive/master.zip
+
+# Sphinx Version Warning Extension
+https://github.com/humitos/sphinx-version-warning/archive/master.zip
