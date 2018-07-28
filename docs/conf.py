@@ -33,7 +33,19 @@ versionwarning_project_slug = 'sphinx-version-warning-example'
 versionwarning_messages = {
     '0.0.1': 'This is a custom message only for version 0.0.1 of this documentation',
 }
-versionwarning_default_message = 'Custom message that comes from Python conf.py file. You can read latest version of this document at {newest}.'
+
+default_message = 'Custom message that comes from Python conf.py file. You can read latest version of this document at {newest}.'
+versionwarning_banner_html = '''
+<div id="{id_div}" class="admonition warning">
+    <p class="first admonition-title">{banner_title}</p>
+    <p class="last">
+        {message}
+    </p>
+</div>'''.format(
+    id_div='version-warning-banner',
+    banner_title='Caution!',
+    message=default_message.format(newest='<a href="#"></a>'),
+)
 
 
 
