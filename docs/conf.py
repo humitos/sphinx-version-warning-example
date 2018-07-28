@@ -33,6 +33,8 @@ versionwarning_project_slug = 'sphinx-version-warning-example'
 versionwarning_messages = {
     '0.0.1': 'This is a custom message only for version 0.0.1 of this documentation',
 }
+versionwarning_default_message = 'Custom message that comes from Python conf.py file. You can read latest version of this document at {newest}.'
+
 
 
 # -- General configuration ---------------------------------------------------
