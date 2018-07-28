@@ -2,4 +2,5 @@
 https://github.com/sphinx-doc/sphinx/archive/master.zip
 
 # Sphinx Version Warning Extension
-sphinx-version-warning
+# sphinx-version-warning
+https://github.com/humitos/sphinx-version-warning/archive/develop.zip
