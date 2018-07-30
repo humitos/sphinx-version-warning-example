@@ -1,2 +1,2 @@
 # Sphinx Version Warning Extension
-https://github.com/humitos/sphinx-version-warning/archive/rtd-environ-variables.zip
+sphinx-version-warning
