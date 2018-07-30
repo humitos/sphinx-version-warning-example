@@ -28,10 +28,9 @@ author = 'Manuel Kaufmann'
 version = release = 'latest'
 
 # -- Version Warning Banner configuration ------------------------------------
-versionwarning_enabled = True
-versionwarning_project_slug = 'sphinx-version-warning-example'
 versionwarning_messages = {
     '0.0.1': 'This is a custom message only for version 0.0.1 of this documentation',
+    'stable': 'Custom message for STABLE version under Read the Docs',
 }
 
 
