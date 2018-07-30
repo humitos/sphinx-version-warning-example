@@ -25,13 +25,14 @@ author = 'Manuel Kaufmann'
 
 # The short X.Y version
 # The full version, including alpha/beta/rc tags
-version = release = 'latest'
+version = release = '0.2.x'
 
 # -- Version Warning Banner configuration ------------------------------------
 versionwarning_enabled = True
 versionwarning_project_slug = 'sphinx-version-warning-example'
 versionwarning_messages = {
     '0.0.1': 'This is a custom message only for version 0.0.1 of this documentation',
+    '0.2.x': 'This is a pre-release, see docs for stable release at {newest}',
 }
 
 
