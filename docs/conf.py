@@ -28,10 +28,9 @@ author = 'Manuel Kaufmann'
 version = release = 'latest'
 
 # -- Version Warning Banner configuration ------------------------------------
-versionwarning_enabled = True
-versionwarning_project_slug = 'sphinx-version-warning-example'
 versionwarning_messages = {
     '0.0.1': 'This is a custom message only for version 0.0.1 of this documentation',
+    'rtd-theme': 'A custom message for Read the Docs Sphinx Theme. How does it behaves un mobile?',
 }
 
 
@@ -81,7 +80,7 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
