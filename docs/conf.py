@@ -32,7 +32,7 @@ versionwarning_enabled = True
 versionwarning_project_slug = 'sphinx-version-warning-example'
 versionwarning_messages = {
     '0.0.1': 'This is a custom message only for version 0.0.1 of this documentation',
-    '0.2.x': 'This is a pre-release, for 0.0.x use the version selector floating in the bottom right corner of this page.',
+    '0.2.x': 'This is a **pre-release**. For 0.0.x see `here </en/0.0.4/>`_',
 }
 
 

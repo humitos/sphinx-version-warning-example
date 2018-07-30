@@ -1,2 +1,2 @@
 # Sphinx Version Warning Extension
-sphinx-version-warning
+https://github.com/humitos/sphinx-version-warning/archive/rst-messages.zip
