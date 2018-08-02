@@ -28,11 +28,15 @@ author = 'Manuel Kaufmann'
 version = release = 'latest'
 
 # -- Version Warning Banner configuration ------------------------------------
-versionwarning_enabled = True
-versionwarning_project_slug = 'sphinx-version-warning-example'
 versionwarning_messages = {
     '0.0.1': 'This is a custom message only for version 0.0.1 of this documentation',
+    'flask-like-warning': 'This is an example of banner with Flask-style',
 }
+
+
+# https://docs.readthedocs.io/en/latest/guides/adding-custom-css.html
+def setup(app):
+    app.add_stylesheet('css/custom.css')
 
 
 # -- General configuration ---------------------------------------------------
@@ -92,7 +96,7 @@ html_theme = 'alabaster'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-# html_static_path = ['_static']
+html_static_path = ['_static']
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
