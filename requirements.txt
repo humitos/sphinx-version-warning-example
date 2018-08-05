@@ -1,2 +1,3 @@
 # Sphinx Version Warning Extension
 sphinx-version-warning
+pallets-sphinx-themes

@@ -37,6 +37,7 @@ versionwarning_messages = {
 # https://docs.readthedocs.io/en/latest/guides/adding-custom-css.html
 def setup(app):
     app.add_stylesheet('css/custom.css')
+    app.add_javascript('js/movebanner.js')
 
 
 # -- General configuration ---------------------------------------------------
