@@ -1,3 +1,2 @@
 # Sphinx Version Warning Extension
 https://github.com/humitos/sphinx-version-warning/archive/only-dynamic-banner.zip
-pallets-sphinx-themes

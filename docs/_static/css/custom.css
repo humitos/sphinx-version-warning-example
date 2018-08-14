@@ -1,4 +1,4 @@
-#version-warning-banner {
+p.version-warning {
   margin: 10px 0;
   padding: 5px 10px;
   border-radius: 4px;
@@ -7,7 +7,6 @@
   color: #fff;
   text-shadow: 0 0 2px #000;
   text-align: center;
-  font-size: 17px;
 
   background: #004b6b repeating-linear-gradient(
     135deg,
@@ -18,15 +17,7 @@
   );
 }
 
-#version-warning-banner a {
+p.version-warning a {
   color: #fff;
   border-color: #fff;
-}
-
-#version-warning-banner p {
-  display: inline;
-}
-
-div.warning {
-  border: 0;
 }
