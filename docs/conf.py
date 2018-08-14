@@ -28,16 +28,15 @@ author = 'Manuel Kaufmann'
 version = release = 'latest'
 
 # -- Version Warning Banner configuration ------------------------------------
+# versionwarning_project_version = 'flask-like-warning'
+versionwarning_body_default_selector = 'div.document'
+versionwarning_banner_html = '''
+    <p class="version-warning"><strong>{banner_title}: </strong>{message}.</p>
+'''
 versionwarning_messages = {
     '0.0.1': 'This is a custom message only for version 0.0.1 of this documentation',
     'flask-like-warning': 'This is an example of banner with Flask-style',
 }
-
-
-# https://docs.readthedocs.io/en/latest/guides/adding-custom-css.html
-def setup(app):
-    app.add_stylesheet('css/custom.css')
-    app.add_javascript('js/movebanner.js')
 
 
 # -- General configuration ---------------------------------------------------
@@ -50,7 +49,8 @@ def setup(app):
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'versionwarning',
+    'versionwarning.extension',
+    'pallets_sphinx_themes',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -86,7 +86,7 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'flask'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
