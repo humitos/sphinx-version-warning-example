@@ -25,7 +25,7 @@ author = 'Manuel Kaufmann'
 
 # The short X.Y version
 # The full version, including alpha/beta/rc tags
-version = release = 'latest'
+version = release = '0.0.2'
 
 # -- Version Warning Banner configuration ------------------------------------
 versionwarning_messages = {
@@ -33,10 +33,18 @@ versionwarning_messages = {
     'only-dynamic-banner': 'Custom message only for version "only-dynamic-banner".',
 }
 
-versionwarning_admonition_type = 'note'
-# versionwarning_default_message = 'This is the default message'
-# versionwarning_message_placeholder = '{newerversion}'
-# versionwarning_banner_html = ''
+versionwarning_admonition_type = 'info'
+versionwarning_message_placeholder = 'newerversion'
+versionwarning_banner_title = 'Check this out!'
+versionwarning_banner_html = '''
+    <div id="{id_div}" class="admonition {admonition_type}">
+        <p class="first admonition-title">{banner_title}</p>
+            <p>Custom HTML Banner here</p>
+            <p class="last">
+                {message}
+            </p>
+    </div>
+'''
 versionwarning_banner_id_div = 'banner-id-div'
 versionwarning_body_selector = 'body > div.document'
 
