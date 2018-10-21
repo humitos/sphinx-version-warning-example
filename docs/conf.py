@@ -29,7 +29,7 @@ version = release = 'latest'
 
 # -- Version Warning Banner configuration ------------------------------------
 # versionwarning_project_version = 'flask-like-warning'
-versionwarning_body_default_selector = 'div.document'
+versionwarning_body_selector = 'div.document'
 versionwarning_banner_html = '''
     <p class="version-warning"><strong>{banner_title}: </strong>{message}.</p>
 '''
