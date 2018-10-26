@@ -28,25 +28,8 @@ author = 'Manuel Kaufmann'
 version = release = '0.0.2'
 
 # -- Version Warning Banner configuration ------------------------------------
-versionwarning_messages = {
-    '0.0.1': 'This is a custom message only for version 0.0.1 of this documentation',
-    'only-dynamic-banner': 'Custom message only for version "only-dynamic-banner".',
-}
-
-versionwarning_admonition_type = 'info'
-versionwarning_message_placeholder = 'newerversion'
-versionwarning_banner_title = 'Check this out!'
-versionwarning_banner_html = '''
-    <div id="{id_div}" class="admonition {admonition_type}">
-        <p class="first admonition-title">{banner_title}</p>
-            <p>Custom HTML Banner here</p>
-            <p class="last">
-                {message}
-            </p>
-    </div>
-'''
-versionwarning_banner_id_div = 'banner-id-div'
-versionwarning_body_selector = 'body > div.document'
+versionwarning_json_url = 'https://raw.githubusercontent.com/humitos/sphinx-version-warning-example/dynamic-message-json/dynamic-data.json'
+versionwarning_retrieve_data_from_api = False
 
 # -- General configuration ---------------------------------------------------
 
