@@ -1,7 +1,7 @@
 {
   "dynamic-message-json": {
     "banner": {
-      "html": "<div id=\"warning-banner\" class=\"admonition warning\"><p class=\"first admonition-title\">Warning</p><p class=\"last\">Dynamic message from an URL.</p></div>",
+      "html": "<div id=\"warning-banner\" class=\"admonition warning\"><p class=\"first admonition-title\">Warning</p><p class=\"last\">Message changed, NOW!.</p></div>",
       "id_div": "warning-banner",
       "body_selector": "div.document",
       "custom": true
