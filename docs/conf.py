@@ -28,8 +28,6 @@ author = 'Manuel Kaufmann'
 version = release = '0.0.2'
 
 # -- Version Warning Banner configuration ------------------------------------
-versionwarning_enabled = True
-versionwarning_project_slug = 'sphinx-version-warning-example'
 versionwarning_messages = {
     '0.0.1': 'This is a custom message only for version 0.0.1 of this documentation',
 }
@@ -45,7 +43,7 @@ versionwarning_messages = {
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'versionwarning',
+    'versionwarning.extension',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
