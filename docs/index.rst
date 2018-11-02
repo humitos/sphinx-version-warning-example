@@ -11,6 +11,7 @@ Welcome to Version Warning Banner Example
    :caption: Contents:
 
    testpage
+   nested/article
 
 
 Version Warning Banner Example, |version|.
