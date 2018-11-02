@@ -30,6 +30,7 @@ version = release = 'latest'
 # -- Version Warning Banner configuration ------------------------------------
 versionwarning_messages = {
     '0.0.1': 'This is a custom message only for version 0.0.1 of this documentation',
+    'nested-articles': 'Note from nested-articles branch. <a href="https://github.com/humitos/sphinx-version-warning/pull/20/">See more</a>.',
 }
 
 
