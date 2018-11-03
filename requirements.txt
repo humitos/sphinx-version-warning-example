@@ -1,2 +1,2 @@
 # Sphinx Version Warning Extension
-https://github.com/aanm/sphinx-version-warning/archive/fix-for-multi-page-document.zip#egg=sphinx-version-warning
+sphinx-version-warning
